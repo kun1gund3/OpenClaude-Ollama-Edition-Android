@@ -37,22 +37,16 @@ ollama serve
 
 Open **Termux** and paste the following command. This will update your system, download the setup script, and configure everything automatically:
 
-```bash
-pkg update -y && pkg upgrade -y && pkg install curl -y && curl -sL [https://raw.githubusercontent.com/AbuZar-Ansarii/Leaked-ClaudeCode/master/termux_setup.sh](https://raw.githubusercontent.com/AbuZar-Ansarii/Leaked-ClaudeCode/master/termux_setup.sh) -o ~/termux_setup.sh && chmod +x ~/termux_setup.sh && bash ~/termux_setup.sh
+```
+pkg update -y && pkg upgrade -y && pkg install curl -y && curl -sL https://raw.githubusercontent.com/AbuZar-Ansarii/Leaked-ClaudeCode/master/termux_setup.sh -o ~/termux_setup.sh && chmod +x ~/termux_setup.sh && bash ~/termux_setup.sh
 ```
 ## ⚙️ How to Use
 ```
 claude
 ```
-## ⚡ Limitless Mode (Auto-Execute)
-To allow the AI to run commands and navigate your phone without asking for permission every time:
-```
-claude --limitless
-```
-
 ## ⚖️ Disclaimer
 This project is for educational and research purposes only. Use "Limitless Mode" with caution as it allows the AI to execute commands on your device autonomously.
 
-Developed by *AbuZar-Ansarii*
+Developed by - **AbuZar-Ansarii**
 
 
