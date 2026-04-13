@@ -30,6 +30,7 @@ Shizuku (Optional but Recommended): Required for autonomous UI interaction witho
 ## Ollama Tnstallation
 Open **Termux** and paste the following command. This will install and run the ollama on your phone
 ```
+termux-setup-storage
 pkg install ollama
 ollama serve
 ```
