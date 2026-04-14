@@ -21,7 +21,7 @@ To use the "God-Mode" hardware features, you must have the following installed:
 
 Termux (GitHub/F-Droid version): Do not use the Play Store version.[Termux on F-Droid](https://f-droid.org/packages/com.termux/)
 
-Termux:API: Install the app from GitHub to allow the AI to access hardware sensors. [Termux on F-Droid](https://f-droid.org/en/packages/com.termux.api/)
+Termux:API: Install the app from GitHub to allow the AI to access hardware sensors. [Termux API on F-Droid](https://f-droid.org/en/packages/com.termux.api/)
 
 Ollama: Must be installed (pkg install ollama) and running (ollama serve) in a separate Termux tab.
 
