@@ -27,7 +27,7 @@ Ollama: Must be installed (pkg install ollama) and running (ollama serve) in a s
 
 Shizuku (Optional but Recommended): Required for autonomous UI interaction without root.
 
-## 2. Shizuku Configuration (System Control)
+## Shizuku Configuration (System Control)
 Shizuku is required to securely bypass the internal Android application sandbox. Without this service, your AI will not have the native authority to execute system commands.
 1. Install **Shizuku** from the Google Play Store.
 2. Enable **Developer Options** on your Android device (tap "Build Number" 7 times under Settings > About Phone).
