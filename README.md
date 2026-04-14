@@ -19,15 +19,24 @@
 ## 🛠 Prerequisites
 To use the "God-Mode" hardware features, you must have the following installed:
 
-Termux (GitHub/F-Droid version): Do not use the Play Store version.
+Termux (GitHub/F-Droid version): Do not use the Play Store version.[Termux on F-Droid](https://f-droid.org/packages/com.termux/)
 
-Termux:API: Install the app from GitHub to allow the AI to access hardware sensors.
+Termux:API: Install the app from GitHub to allow the AI to access hardware sensors. [Termux on F-Droid](https://f-droid.org/en/packages/com.termux.api/)
 
 Ollama: Must be installed (pkg install ollama) and running (ollama serve) in a separate Termux tab.
 
 Shizuku (Optional but Recommended): Required for autonomous UI interaction without root.
 
-## Ollama Tnstallation
+## 2. Shizuku Configuration (System Control)
+Shizuku is required to securely bypass the internal Android application sandbox. Without this service, your AI will not have the native authority to execute system commands.
+1. Install **Shizuku** from the Google Play Store.
+2. Enable **Developer Options** on your Android device (tap "Build Number" 7 times under Settings > About Phone).
+3. Inside Developer Options, enable **Wireless Debugging**.
+4. Open the Shizuku application, select **Pairing**, and follow the on-screen instructions to authorize the service using an Android pairing code.
+5. Tap **Start** to initiate the background service.
+
+
+## Ollama Installation
 Open **Termux** and paste the following command. This will install and run the ollama on your phone
 ```
 termux-setup-storage
