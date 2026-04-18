@@ -43,6 +43,13 @@ termux-setup-storage
 pkg install ollama
 ollama serve
 ```
+Open a new environment in Termux and insert the following command
+```
+ollama run gemini-3-flash-preview:cloud
+```
+Copy the generated link and open it in a browser. Follow the instructions until your device is connected. 
+
+
 ## 🚀 One-Line Installation (Leaked ClaudeCode)
 
 Open **Termux** and paste the following command. This will update your system, download the setup script, and configure everything automatically:
