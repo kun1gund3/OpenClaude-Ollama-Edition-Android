@@ -17,7 +17,7 @@
 - **1-Click Setup:** Fully automated Termux environment configuration.
 
 ## 🛠 Prerequisites
-To use the "God-Mode" hardware features, you must have the following installed:
+To use the "Limitless-Mode" hardware features, you must have the following installed:
 
 Termux (GitHub/F-Droid version): Do not use the Play Store version.[Termux on F-Droid](https://f-droid.org/packages/com.termux/)
 
