@@ -47,7 +47,7 @@ Open a new environment in Termux and paste the following command
 ```
 ollama run gemini-3-flash-preview:cloud
 ```
-After executing the command, a link will be generated. Copy the link and open it in a browser. Follow the instructions until your device is connected. 
+If you want a different model, then replace the desired model after the run command. After executing the command, a link will be generated. Copy the link and open it in a browser. Follow the instructions until your device is connected. 
 
 
 ## 🚀 One-Line Installation (Leaked ClaudeCode)
