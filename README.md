@@ -2,7 +2,7 @@
 
 <img width="2400" height="1080" alt="Screenshot_20260413-124242 Termux" src="https://github.com/user-attachments/assets/c447fce1-2eb5-4035-b9ad-b99b67603167" />
 
-**Run an autonomous, hardware-aware AI agent directly on your Android device. This version is modified to run locally via Ollama with full "God-Mode" hardware control.**
+**Run an autonomous, hardware-aware AI agent directly on your Android device. This version is modified to run locally via Ollama.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: Android](https://img.shields.io/badge/Platform-Android-green.svg)]()
